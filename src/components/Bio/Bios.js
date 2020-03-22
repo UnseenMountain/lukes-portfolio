@@ -26,12 +26,13 @@ function Bio() {
                                 <Card.Body>
                                     <div>
                                         <h1>About Me </h1>
-                                        <h4>My name is Luke Klymshyn. I am an aspiring web developer and avid gamer. I am a student at
+                                        <h5 >My name is Luke Klymshyn. I am an aspiring web developer and avid gamer. I am a student at
                                         UCLA I have
                                         experiance in HTML 5 CSS and Javascrtipt I have worked
-                                        with Bootstrap, Ajax requests, Jquery, and firebase applications. </h4>
-                                        <h4>If you would like to see a samples of my work please refer to the gallery section of my site.
-                                        I am a people person very personable and im a team player. </h4>
+                                        with Bootstrap, Ajax requests, Jquery, and firebase applications. </h5>
+                                        <h5>If you would like to see a samples of my work please refer to the gallery section of my site.
+                                        I am a people person very personable and im a team player. </h5>
+                                        <h5>I</h5>
                                     </div>
                                     </Card.Body>
                             </Card>

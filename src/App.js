@@ -3,8 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import NavBar from "./components/NavBar/NavBar"
 import Bios from "./components/Bio/Bios"
-import Gallery from "./components/Gallery/Gallery"
-import { Router, Switch, Route } from 'react-router-dom';
+import Gallery from "./components/Gallery/Gallerys"
+
 
 function App() {
   return (
@@ -17,8 +17,8 @@ function App() {
 
         
 
-
-      <Bios/>
+        <Gallery/>
+      {/* <Bios/> */}
          
 
     </div>
