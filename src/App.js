@@ -4,7 +4,7 @@ import './App.css';
 import NavBar from "./components/NavBar/NavBar"
 import Bios from "./components/Bio/Bios"
 import Gallery from "./components/Gallery/Gallerys"
-
+import Footer from "./components/Footer/Footer"
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         <Gallery/>
       {/* <Bios/> */}
          
-
+    <Footer/>
     </div>
     
   );
