@@ -7,6 +7,9 @@ function Gallery() {
 
   return (
     <div className="text">
+      <Card >
+                <Card.Img height="700" src="https://media.giphy.com/media/OK5LK5zLFfdm/giphy.gif" alt="Card image" />
+                <Card.ImgOverlay>
       <Container>
         <Carousel>
 
@@ -134,6 +137,9 @@ function Gallery() {
           </Carousel.Item>
         </Carousel>
       </Container>
+      </Card.ImgOverlay>
+
+            </Card>
     </div>
   )
 

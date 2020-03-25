@@ -5,9 +5,9 @@ import {Nav, Container} from "react-bootstrap"
 function NavBar () {
 return(
     <div> 
-        <Container>
-        <Navbar bg="light" expand="lg">
-  <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        
+        <Navbar bg="dark" variant="dark" expand="lg">
+  <Navbar.Brand href="#home">Luke's portfolio</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
@@ -17,7 +17,7 @@ return(
     </Nav>
   </Navbar.Collapse>
 </Navbar>
-</Container>
+
 
 
 

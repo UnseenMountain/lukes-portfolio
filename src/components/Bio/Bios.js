@@ -1,43 +1,45 @@
-import React, { useState } from "react"
-import { Card, Container, Col, Image, Button } from "react-bootstrap"
-import Modal from 'react-bootstrap/Modal'
-import './style.css'
+import React, { Component, Fragment } from 'react';
+import Fade from 'react-reveal/Fade';
+import { Card, Container, Col, Image, Row } from "react-bootstrap"
+export default class ReactReveal extends Component {
 
-
-
-function Bio() {
-    const [show, setShow] = useState(false);
+  render() {
+    const animateList = [1];
     return (
-        <div>
-
+      <Fragment>
+        {animateList.map((item, key) => (
+          <div>
+            <Fade top>
+            <div>
+            
 
             <Card >
-                <Card.Img height="700" src="https://i.pinimg.com/originals/63/9d/35/639d3537c0ba9d959e379c646c655878.jpg" alt="Card image" />
+                <Card.Img height="750" src="https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif" alt="Card image" />
                 <Card.ImgOverlay>
 
-                    ``          <Container>
+                    ``          <Container fluid="md">
+                        <Row>
                         <Col xs={6} md={4}>
-                            <Image height="250" width="250" src="https://lh3.googleusercontent.com/proxy/C9CL1Y_NJvu4ZZD95qEHF502nPKQwUWpdAJLJFBucpPaUSbgM3ON31o_6BwbJp2s0Tvj6u-Dak5UwVxDftwfu_p5lX5KsuE" roundedCircle />
+                            <Image height="250" width="250" src="https://i.ytimg.com/vi/c0NeRZ_unVI/hqdefault.jpg" roundedCircle />
                         </Col>
 
 
-                        <div className="container">
-                            <Card>
+                        <div>
+                            <Col  md={{ span: 7, offset: 3 }}>
+                            <Card >
                                 <Card.Body>
+                                <Card.Header>About me</Card.Header>
                                     <div>
-                                        <h1>About Me </h1>
-                                        <h5 >My name is Luke Klymshyn. I am an aspiring web developer and avid gamer. I am a student at
-                                        UCLA I have
-                                        experiance in HTML 5 CSS and Javascrtipt I have worked
-                                        with Bootstrap, Ajax requests, Jquery, and firebase applications. </h5>
-                                        <h5>If you would like to see a samples of my work please refer to the gallery section of my site.
-                                        I am a people person very personable and im a team player. </h5>
-                                        <h5>I</h5>
+                                        <h5> My name is Luke Klymshyn. I am a gruduate of UCLA's online coding bootcamp program
+                                        experience in HTML 5 CSS and Javascript I have worked with Bootstrap, Ajax requests, Jquery, and firebase applications. </h5>
+                                        <h5>If you would like to see samples of my work please refer to the gallery section of my site.
+                                        I am a people person very personable and I'm a team player.</h5>
                                     </div>
                                     </Card.Body>
                             </Card>
-
+                            </Col>
                         </div>
+                        </Row>
                     </Container>
                 </Card.ImgOverlay>
 
@@ -45,8 +47,40 @@ function Bio() {
 
 
         </div >
-    )
+              <h1 style={styles.title}>{`block ${item}`}</h1>
+            </Fade>
+          </div>
+        ))}
+      </Fragment>
+    );
+  }
+}
 
+const styles = {
+  block: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '100%',
+    height: '100%',
+    background: '#000',
+    borderBottom: '1px solid rgba(255,255,255,.2)'
+  },
+  title: {
+    textAlign: 'center',
+    fontSize: 100,
+    color: '#fff',
+    fontFamily: 'Lato, sans-serif',
+    fontWeight: 100
+  },
 };
 
-export default Bio
+
+
+
+
+
+
+
+
+

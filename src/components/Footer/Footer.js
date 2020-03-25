@@ -7,7 +7,7 @@ function Footer() {
             <Card bg="dark" text="white" className="text-center">
                 <Card.Header>Featured</Card.Header>
                 <Card.Body>
-                    <Card.Title>Special title treatment</Card.Title>
+                    
                     <Card.Text>
                         This code was created by Luke Klymshyn
                     </Card.Text>
