@@ -17,8 +17,8 @@ function App() {
 
         
 
-        {/* <Gallery/> */}
-      <Bios/>
+        <Gallery/>
+      {/* <Bios/> */}
          
     <Footer/>
     </div>
