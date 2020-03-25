@@ -1,19 +1,78 @@
 import React, { Component, Fragment } from 'react';
 import Fade from 'react-reveal/Fade';
-
+import { Button, Container, Card } from 'react-bootstrap'
 export default class ReactReveal extends Component {
 
   render() {
-    const animateList = [1,2,3,4,5];
+    
     return (
       <Fragment>
-        {animateList.map((item, key) => (
-          <div style={styles.block} key={key}>
+        
+          <div style={styles.block}>
             <Fade top>
-              <h1 style={styles.title}>{`block ${item}`}</h1>
+              
+              <Card style={styles.title}>
+                <Card.Body>
+                   <h3  className="text">Group Project 2</h3>
+                   <p className="text">This is a photo, video and comment sharing application my team created.
+           </p>
+                 <Button variant="secondary" size="sm" href="http://podfire.herokuapp.com/landing">
+                 Live Link
+          </Button>
+                 </Card.Body>
+               </Card>
+        
+
+              
+
+
+
+          <Card style={styles.title}>
+                 <Card.Body>
+                   <h3 className="text"> On Topic a 4 person group project</h3>
+                   <p className="text">This a Group Project my team created called On Topic. Here you can search up related, historical or cesent
+             events based on your search results.</p>
+             
+             <Button variant="secondary" size="sm" href="https://origamiunicorn.github.io/No-Rest-For-The-Students/">
+                 Live App
+           </Button>
+             </Card.Body>
+               </Card>
+
+               <Card style={styles.title}>
+                 <Card.Body>
+                   <h3 className="text">RPG game</h3>
+                  <p className="text">This is a game I created were you select a character and battle the others you win by defeating all your
+                  opponets. (PS: choose Keannu Reaves)
+            </p>
+                 <Button variant="secondary" size="sm" href="https://unseenmountain.github.io/unit-4-game/">
+                 Live App
+           </Button>
+                 </Card.Body>               
+                 </Card>
+                
+                 <Card style={styles.title}>
+                 <Card.Body>
+                 <h3 className="text">Train station</h3>
+                   <p className="text" > Take a ride on the rails (or off if thats your thing).
+                   </p>
+                  <Button variant="secondary" size="sm" href="https://unseenmountain.github.io/train-station/">
+                   Large button
+           </Button>
+                 </Card.Body>
+               </Card>
+
+               <Card style={styles.title}>
+                <Card.Body>  
+                   <h3 className="text">Gifi API</h3>
+              <Button variant="secondary" size="sm" href="https://unseenmountain.github.io/Gify-cool-api/">
+                Large button
+          </Button>
+                </Card.Body>
+              </Card>
             </Fade>
           </div>
-        ))}
+        
       </Fragment>
     );
   }
@@ -21,18 +80,18 @@ export default class ReactReveal extends Component {
 
 const styles = {
   block: {
-    display: 'flex',
+    padding: 10,
     alignItems: 'center',
     justifyContent: 'center',
     width: '100%',
     height: '100%',
     background: '#000',
-    borderBottom: '1px solid rgba(255,255,255,.2)'
+    borderBottom: '1px solid rgba(255,255,255,.2)',
   },
   title: {
     textAlign: 'center',
-    fontSize: 100,
-    color: '#fff',
+    fontSize: 20,
+    color: 'black',
     fontFamily: 'Lato, sans-serif',
     fontWeight: 100
   },
@@ -126,7 +185,7 @@ const styles = {
 //               height="500"
 //             />
 //             <Carousel.Caption>
-//               <Card>
+   //            <Card>
 //                 <Card.Body>
 //                   <h3 className="text">RPG game</h3>
 //                   <p className="text">This is a game I created were you select a character and battle the others you win by defeating all your
@@ -180,16 +239,16 @@ const styles = {
 //             />
 
 //             <Carousel.Caption>
-//               <Card>
-//                 <Card.Body>  
-//                    <h3 className="text">Gifi API</h3>
-//                 </Card.Body>
-//               </Card>
+          //     <Card>
+          //       <Card.Body>  
+          //          <h3 className="text">Gifi API</h3>
+          //     <Button variant="secondary" size="sm" href="https://unseenmountain.github.io/Gify-cool-api/">
+          //       Large button
+          // </Button>
+          //       </Card.Body>
+          //     </Card>
 
 
-//               <Button variant="secondary" size="sm" href="https://unseenmountain.github.io/Gify-cool-api/">
-//                 Large button
-//           </Button>
 //             </Carousel.Caption>
 //           </Carousel.Item>
 //         </Carousel>
