@@ -23,7 +23,7 @@ export default class ReactReveal extends Component {
                 <Card.ImgOverlay>
                     
 
-                    ``  <Container fluid="md">
+                    ``  <Container fluid="lg">
                         <Row>
                             <Rotate>
                         <Col xs={6} md={4}>
@@ -33,20 +33,21 @@ export default class ReactReveal extends Component {
 
 
                         <div>
-                            <Col  md={{ span: 7, offset: 3 }}>
+                            <Col  md={{ span: 8, offset: 3 }}>
                             <Card >
                                 <Card.Body>
                                 <Card.Header>About me</Card.Header>
                                     <div>
                                     <Flip cascade>
 
-                                    <h5> Hi im Luke Klymshyn. I am a graduate of UCLA </h5>
-                                        
-                                        <h5>If you would like to see samples of my work please refer to the gallery section of my site.
-                                        
-                                        I am a people person very personable and I'm a team player.</h5>
-                                    </Flip>
-                                        
+                                    <h5> Luke Klymshyn. Is a graduate of UCLA and a Fullstack web developer.
+                                      who specializes in UI and UX design. </h5> 
+                                      <h5>He has worked with HTML5, CSS, Javascript, Ajax, Json, APIs, 
+                                      React bootstrap, Bulma, and Databases. 
+                                    </h5>
+                                        <h5>I am great in a group or alone, Im very personable.</h5>
+                                        <h5>If you would like to see samples of my work please refer to the gallery section of my site.</h5>
+                                    </Flip>   
                                     </div>
                                     </Card.Body>
                             </Card>

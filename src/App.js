@@ -8,20 +8,22 @@ import Footer from "./components/Footer/Footer"
 
 function App() {
   return (
-    
+        <Router>  
     <div>
       <NavBar/>
         
-       
+          
+          {/* <Route path="/Bio" component={Bio}/> */}
           {/* <Route path="/Gallery" component={Gallery}/> */}
-
-        
-
-        <Gallery/>
-      {/* <Bios/> */}
-         
-    <Footer/>
-    </div>
+          
+          
+          
+          {/* <Gallery/> */}
+          <Bios/>
+          
+          <Footer/>
+          </div>
+          </Router>
     
   );
 }
