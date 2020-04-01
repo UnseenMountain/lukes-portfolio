@@ -11,11 +11,11 @@ function Footer() {
                     <Card.Text>
                         This code was created by Luke Klymshyn
                     </Card.Text>
-                    <a>
+                    
                         <Button variant="primary" href="https://github.com/UnseenMountain?tab=repositories">
                             Source files and link to my github here!
                      </Button>
-                    </a>
+                    
                 </Card.Body>
                 <Card.Footer className="text-muted"></Card.Footer>
             </Card>
