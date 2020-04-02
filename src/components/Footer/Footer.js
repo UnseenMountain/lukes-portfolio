@@ -1,5 +1,5 @@
 import React from "react"
-import { Card, Button } from 'react-bootstrap'
+import { Card, Button, Image } from 'react-bootstrap'
 
 function Footer() {
     return (
@@ -12,8 +12,13 @@ function Footer() {
                         This code was created by Luke Klymshyn
                     </Card.Text>
                     
+            
+                        <Button variant="primary" href="https://www.linkedin.com/in/luke-klymshyn-397622193/">
+                        <Image height="100" width="100" src="https://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png" roundedCircle />
+                     </Button>
+                        
                         <Button variant="primary" href="https://github.com/UnseenMountain?tab=repositories">
-                            Source files and link to my github here!
+                        <Image height="100" width="100" src="https://pbs.twimg.com/profile_images/1157035760085684224/iuxTnT5g_400x400.jpg" roundedCircle />
                      </Button>
                     
                 </Card.Body>

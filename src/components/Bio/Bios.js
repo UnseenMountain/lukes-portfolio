@@ -40,7 +40,7 @@ export default class ReactReveal extends Component {
 
                               <Container>
                                 <h2>Hi, im Luke Klymshyn and yes my last name has no vowels.</h2>
-                                <h2>Im a UI and UX designer foucused in making fun and engaging websites for your users.</h2>
+                                <h2>Im a UI and UX designer foucused in making fun, engaging, and responsive websites for your users.</h2>
                               </Container>
 
                             </Flip>
@@ -59,29 +59,35 @@ export default class ReactReveal extends Component {
             </Fade>
 
             <Fade top>
-              <div className="aline">
+             
 
-                  <Card>
-                    <Card.Img height="750" src="https://media3.giphy.com/media/3ov9jQWd5qhiUSPDri/giphy.gif" alt="Card image" />
+                <Card>
+                  <Card.Img height="750" src="https://media.giphy.com/media/l3978y5HqiEtqupiM/giphy.gif" alt="Card image" />
                   <Card.ImgOverlay>
-                  <Container>
                     <Jumbotron>
+                      <Container>
+                        <div className="aline">
 
-                  <h5> Luke Klymshyn. Is a graduate of UCLA and a Fullstack web developer.
+                          <h5> Luke Klymshyn. Is a graduate of UCLA and a Fullstack web developer.
                                       who specializes in UI and UX design. </h5>
-                  <h5>He has worked with HTML5, CSS, Javascript, Ajax, Json, API's,
-                  React bootstrap, Bulma, and Databases.
+                          <h5>He has worked with HTML5, CSS, Javascript, Ajax, Json, API's,
+                          React bootstrap, Bulma, and Databases.
                                     </h5>
-                  <h5>I am great in a group or alone, Im very personable. </h5>
-                  <h5> My hobbies consist of playing video games, makeing up stories or new ideas listening to music. </h5>
-                  <h5>If you would like to see samples of my work please refer to the gallery section of my site.</h5>
+                          <h5>I am great in a group or alone, Im very personable. </h5>
 
+                          <h5>One of my acoplishments was taking second place in the video game design compition at Skills USA with a friend of mine. </h5>
+
+                          <h5> My hobbies consist of playing video games, makeing up stories or new ideas listening to music. </h5>
+
+                          <h5>If you would like to see samples of my work please refer to the gallery below.</h5>
+
+                        </div>
+                      </Container>
                     </Jumbotron>
-                </Container>
-                    </Card.ImgOverlay>
-                  </Card>
+                  </Card.ImgOverlay>
+                </Card>
 
-              </div>
+              
             </Fade>
           </div>
         ))}
