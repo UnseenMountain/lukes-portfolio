@@ -22,7 +22,7 @@ export default class Gallery extends Component {
              <div  style={styles.title} className="text-white">
 
                 <h3 className="text">Tomagotchi</h3>
-                <p className="text">This is a fully top down 2D RPG game me and 3 other people made.
+                <p className="text">This is a fully top down 2D RPG game me and 3 other people made. We used
            </p>
              </div>
                 <Button variant="secondary" size="sm" href="https://fathomless-stream-68190.herokuapp.com/">
@@ -131,7 +131,7 @@ const styles = {
     width: '100%',
     height: '100%',
     background: '#000',
-    borderBottom: '1px solid rgba(255,255,255,.2)',
+    
   },
   title: {
     textAlign: 'center',
