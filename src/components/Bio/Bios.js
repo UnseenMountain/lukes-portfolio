@@ -106,7 +106,7 @@ export default class ReactReveal extends Component {
       </Fragment>
     );
 
-
+        
   }
 
 
