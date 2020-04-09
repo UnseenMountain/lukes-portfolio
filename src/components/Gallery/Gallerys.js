@@ -60,7 +60,7 @@ export default class Gallery extends Component {
               Live Link
           </Button>
           <Button style={styles.pad} variant="secondary" size="sm" href="https://github.com/cshjnim/CASTR.git">
-                    GitHub repo
+                    GitHub repo.
            </Button>
                 </div>
               </Media.Body>
