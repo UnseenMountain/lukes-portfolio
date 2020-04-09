@@ -24,24 +24,24 @@ export default class ReactReveal extends Component {
                   <Card.ImgOverlay>
 
 
-                    ``  <Container >
+                    <Container >
                       <Row>
                         <Rotate>
 
-                        </Rotate>
+                        <div style={styles.title}>
 
 
-                        <div >
 
-                          <div style={styles.title} md="auto" className="text-white">
                             <Flip cascade>
 
                               <Container>
                                 <Media as="li">
                                   <Media.Body>
-                                    <h2>Hi, im Luke Klymshyn and yes my last name has no vowels.</h2>
-                                    <h2>Im a UI and UX designer foucused in making fun, engaging, and responsive websites for your users.</h2>
+                          <div style={styles.pad} md="auto" className="text-white">
+                                    <h2>Hi, I'm Luke Klymshyn and yes my last name has no vowels.</h2>
+                                    <h2>I'm a UI and UX designer focused on making fun, engaging, and responsive websites for your users.</h2>
 
+                                  </div>
                                   </Media.Body>
                                   <img
                                     width={200}
@@ -49,15 +49,15 @@ export default class ReactReveal extends Component {
                                     className="align-self-center mr-3"
                                     src="https://i.ytimg.com/vi/c0NeRZ_unVI/hqdefault.jpg"
                                     alt="Generic placeholder"
-                                  />
+                                    />
                                 </Media>
 
                               </Container>
 
                             </Flip>
-                          </div>
 
                         </div>
+                                    </Rotate>
                       </Row>
                     </Container>
                   </Card.ImgOverlay>
@@ -70,11 +70,11 @@ export default class ReactReveal extends Component {
             </Fade>
 
             <Fade top>
-              <div style={styles.title}>
 
                 <Card>
                   <Card.Img height="750" src="https://media.giphy.com/media/l3978y5HqiEtqupiM/giphy.gif" alt="Card image" />
                   <Card.ImgOverlay>
+              <div style={styles.title}>
                     <Jumbotron>
                       <Container>
 
@@ -95,10 +95,10 @@ export default class ReactReveal extends Component {
 
                       </Container>
                     </Jumbotron>
+              </div>
                   </Card.ImgOverlay>
                 </Card>
 
-              </div>
             </Fade>
           </div>
         ))
@@ -106,7 +106,7 @@ export default class ReactReveal extends Component {
       </Fragment>
     );
 
-        
+
   }
 
 
@@ -132,6 +132,13 @@ const styles = {
     fontSize: 20,
     color: 'black',
     fontFamily: 'Lato, sans-serif',
-    fontWeight: 100
+    fontWeight: 100,
+    padding: 100
+   
   },
+
+  pad: {
+      
+    padding: 30
+}
 };
