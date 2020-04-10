@@ -27,7 +27,9 @@ export default class Gallery extends Component {
                 <div style={styles.title} className="text-white">
 
                   <h3 className="text">Tomagotchi</h3>
-                  <p className="text">This is a fully top down 2D RPG game me and 3 other people made. We used</p>
+                  <p className="text">TAMAGOTCHI is a GAME!
+
+                  The Tamagotchi (たまごっち) is a handheld digital pet, created in Japan by Akihiro Yokoi of WiZ and Aki Maita of Bandai, the game that became one of the biggest toy fads of the 1990s and early 2000s. This app allows the user to play a narrative based on the old amazing game once again!</p>
                   <h3>Technologies used.</h3>
                   <p>Phaser 3, Javascript, React, React bootstrap, Deployed on Heroku, MongoDB.</p>
                 <Button variant="secondary" size="sm" href="https://fathomless-stream-68190.herokuapp.com/">
@@ -53,8 +55,12 @@ export default class Gallery extends Component {
                 <div style={styles.title} className="text-white">
 
                   <h3 className="text">Group Project 2</h3>
-                  <p className="text">This is a photo, video and comment sharing application my team created.</p>
+                  <p className="text">CASTR is a cross between Pinterest and Reddit/Quora.
+
+                  Users sign up for an account and subscribe to their favorite creators. This is a space where creators can share a wide breadth of mediums including audio, art, literature, and video. It's a space where they can share, save, and start meaningful conversations around the different pieces creators have to offer.</p>
+                  
                   <h3>Technologies used.</h3>
+                  
                   <p>Javascript, CSS, Handlebars, MongoDB.</p>
             <Button variant="secondary" size="sm" href="http://podfire.herokuapp.com/landing">
               Live Link
@@ -80,7 +86,7 @@ export default class Gallery extends Component {
                 <div style={styles.title} className="text-white">
 
                   <h3 className="text">RPG game</h3>
-                  <p className="text">This is a game I created were you select a character and battle the others you win by defeating all your
+                  <p className="text">This is a turn based RPG game were you select a character and battle the others you win by defeating all your
               opponets. (PS: choose Keannu Reaves) </p>
               <h3>Technologies used.</h3>
                   <p>HTML 5, CSS, Javascript.</p>
@@ -131,7 +137,7 @@ export default class Gallery extends Component {
                 <div style={styles.title} className="text-white">
 
                   <h3 className="text">Train station</h3>
-                  <p className="text" > Take a ride on the rails (or off if thats your thing).</p>
+                  <p className="text" > Track your next train its time and destination with this train scedualer</p>
                   <h3>Technologies used.</h3>
                   <p>Firbase, Javascript Deployed on GitHub pages.</p>
                   
