@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import Fade from 'react-reveal/Fade';
-import Flip from 'react-reveal/Flip';
+import Zoom from 'react-reveal/Zoom';
 import Rotate from 'react-reveal/Rotate';
 import Media from 'react-bootstrap/Media'
 import { Card, Container, Row, Jumbotron } from "react-bootstrap"
@@ -32,7 +32,7 @@ export default class ReactReveal extends Component {
 
 
 
-                            <Flip cascade>
+                            <Fade top big cascade>
 
                               <Container>
                                 <Media as="li">
@@ -54,7 +54,7 @@ export default class ReactReveal extends Component {
 
                               </Container>
 
-                            </Flip>
+                            </Fade>
 
                         </div>
                                     </Rotate>
@@ -67,18 +67,19 @@ export default class ReactReveal extends Component {
 
               </div >
 
-            </Fade>
+            </Fade >
 
-            <Fade top>
+            <Fade top bottom big cascade>
 
                 <Card>
                   <Card.Img height="750" src="https://data.whicdn.com/images/289974250/original.gif" alt="Card image" />
                   <Card.ImgOverlay>
               <div style={styles.title}>
                     <Jumbotron>
+                      
                       <Container>
-
-
+                      <Zoom bottom cascade duration={1500}>
+          
                         <h5> Luke Klymshyn. Is a graduate of UCLA and a Fullstack web developer.
                                       who concentrates on UI and UX design. </h5>
                         <h5>He has worked with HTML5, CSS, Javascript, Ajax, Json, API,
@@ -92,6 +93,7 @@ export default class ReactReveal extends Component {
 
                         <h5>If you would like to review some samples of my work please refer to the gallery below.</h5>
 
+        </Zoom>
 
                       </Container>
                     </Jumbotron>
