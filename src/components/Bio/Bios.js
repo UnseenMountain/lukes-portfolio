@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 import Rotate from 'react-reveal/Rotate';
-import Media from 'react-bootstrap/Media'
+import Media from 'react-bootstrap/Media';
 import { Card, Container, Row, Jumbotron } from "react-bootstrap"
 export default class ReactReveal extends Component {
 
@@ -12,6 +12,7 @@ export default class ReactReveal extends Component {
   render() {
     const animateList = [1];
     return (
+      
       <Fragment>
         {animateList.map(() => (
           <div>
@@ -38,18 +39,19 @@ export default class ReactReveal extends Component {
                                 <Media as="li">
                                   <Media.Body>
                           <div style={styles.pad} md="auto" className="text-white">
-                                    <h2>Hi, I'm Luke Klymshyn and yes my last name has no vowels.</h2>
-                                    <h2>I'm a UI and UX designer focused on making fun, engaging, and responsive websites for your users.</h2>
-
-                                  </div>
-                                  </Media.Body>
-                                  <img
+                          <img
                                     width={200}
                                     height={200}
                                     className="align-self-center mr-3"
                                     src="https://i.ytimg.com/vi/c0NeRZ_unVI/hqdefault.jpg"
                                     alt="Generic placeholder"
                                     />
+                                    <h2>Hi, I'm Luke Klymshyn and yes my last name has no vowels.</h2>
+                                    <h2>I'm a UI and UX designer focused on making fun, engaging, and responsive websites for your users.</h2>
+
+                                  </div>
+                                  </Media.Body>
+                                 
                                 </Media>
 
                               </Container>
@@ -74,7 +76,7 @@ export default class ReactReveal extends Component {
                 <Card>
                   <Card.Img height="750" src="https://data.whicdn.com/images/289974250/original.gif" alt="Card image" />
                   <Card.ImgOverlay>
-              <div style={styles.title}>
+              <div style={styles.pad} style={styles.p}>
                     <Jumbotron>
                       
                       <Container>
@@ -136,12 +138,17 @@ const styles = {
     color: 'black',
     fontFamily: 'Lato, sans-serif',
     fontWeight: 100,
-    padding: 100
+    padding: 10,
+   
    
   },
 
   pad: {
       
     padding: 30
-}
+},
+  p: {
+      
+    padding: 80
+},
 };
