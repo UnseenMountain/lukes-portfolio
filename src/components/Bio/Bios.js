@@ -76,7 +76,7 @@ export default class ReactReveal extends Component {
                 <Card>
                   <Card.Img height="750" src="https://data.whicdn.com/images/289974250/original.gif" alt="Card image" />
                   <Card.ImgOverlay>
-              <div style={styles.pad}>
+              <div style={styles.title}>
                 <div style={styles.p}>
 
                     <Jumbotron>
