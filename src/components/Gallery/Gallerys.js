@@ -2,7 +2,13 @@ import React, { Component, Fragment } from 'react';
 import Fade from 'react-reveal/Fade';
 import { Button } from 'react-bootstrap'
 import Media from 'react-bootstrap/Media'
-
+import Bounce from 'react-reveal/Bounce';
+import Zoom from 'react-reveal/Zoom';
+import Tada from 'react-reveal/Tada';
+import Flip from 'react-reveal/Flip';
+import RubberBand from 'react-reveal/RubberBand';
+import Shake from 'react-reveal/Shake';
+import Spin from 'react-reveal/Spin';
 export default class Gallery extends Component {
 
 
@@ -27,19 +33,22 @@ export default class Gallery extends Component {
               />
               <Media.Body>
                 <div style={styles.title} className="text-white">
-
+                <Bounce left cascade>
                   <h3 className="text">Tomagotchi</h3>
                   <p className="text">TAMAGOTCHI is a GAME!
 
                   The Tamagotchi (たまごっち) is a handheld digital pet, created in Japan by Akihiro Yokoi of WiZ and Aki Maita of Bandai, the game that became one of the biggest toy fads of the 1990s and early 2000s. This app allows the user to play a narrative based on the old amazing game once again!</p>
                   <h3>Technologies used.</h3>
                   <p>Phaser 3, Javascript, React, React bootstrap, Deployed on Heroku, MongoDB.</p>
+           </Bounce>
+           <Tada>
                   <Button variant="secondary" size="sm" href="https://fathomless-stream-68190.herokuapp.com/">
                     Live Link
           </Button>
                   <Button style={styles.pad} variant="secondary" size="sm" href="https://github.com/UnseenMountain/tamagotchi">
                     GitHub repo
            </Button>
+           </Tada>
                 </div>
               </Media.Body>
             </Media>
@@ -55,7 +64,7 @@ export default class Gallery extends Component {
               />
               <Media.Body>
                 <div style={styles.title} className="text-white">
-
+                <Zoom left cascade>
                   <h3 className="text">Group Project 2</h3>
                   <p className="text">CASTR is a cross between Pinterest and Reddit/Quora.
 
@@ -67,6 +76,7 @@ export default class Gallery extends Component {
                   <Button variant="secondary" size="sm" href="http://podfire.herokuapp.com/landing">
                     Live Link
           </Button>
+          </Zoom>
                   <Button style={styles.pad} variant="secondary" size="sm" href="https://github.com/cshjnim/CASTR.git">
                     GitHub repo.
            </Button>
@@ -86,18 +96,22 @@ export default class Gallery extends Component {
               />
               <Media.Body>
                 <div style={styles.title} className="text-white">
-
+                <Flip cascade>
                   <h3 className="text">RPG game</h3>
                   <p className="text">This is a turn based RPG game were you select a character and battle the others you win by defeating all your
               opponets. (PS: choose Keannu Reaves) </p>
                   <h3>Technologies used.</h3>
                   <p>HTML 5, CSS, Javascript.</p>
+                  </Flip>
+                  <RubberBand>
+
                   <Button style={styles.pad} variant="secondary" size="sm" href="https://unseenmountain.github.io/unit-4-game/">
                     Live App
            </Button>
                   <Button variant="secondary" size="sm" href="https://github.com/UnseenMountain/unit-4-game">
                     GitHub repo
            </Button>
+                  </RubberBand>
                 </div>
               </Media.Body>
             </Media>
@@ -112,7 +126,7 @@ export default class Gallery extends Component {
               />
               <Media.Body>
                 <div style={styles.title} className="text-white">
-
+                <Bounce left cascade>
                   <h3 className="text"> On Topic a 4 person group project</h3>
                   <p className="text">On Topic is a web app allowing users to search for keywords in three different API databases, returning
                   results of articles and videos (sourced via YouTube) related to that keyword. This is all part of Team No
@@ -120,12 +134,16 @@ export default class Gallery extends Component {
             March 2020).</p>
                   <h3>Technologies used.</h3>
                   <p>Firbase, Newsy API Javascript Deployed on Heroku.</p>
+                  </Bounce>
+                  <Tada>
+
                   <Button style={styles.pad} variant="secondary" size="sm" href="https://origamiunicorn.github.io/No-Rest-For-The-Students/">
                     Live App
            </Button>
                   <Button variant="secondary" size="sm" href="https://github.com/origamiunicorn/No-Rest-For-The-Students">
                     GitHub repo
            </Button>
+                  </Tada>
                 </div>
               </Media.Body>
             </Media>
@@ -140,18 +158,18 @@ export default class Gallery extends Component {
               />
               <Media.Body>
                 <div style={styles.title} className="text-white">
-
+                <Fade bottom big cascade>>
                   <h3 className="text">Train station</h3>
                   <p className="text" >A search algorithm for a train station ticket machine to help the user find were they want to go.</p>
                   <h3>Technologies used.</h3>
                   <p>Firbase, Javascript Deployed on GitHub pages.</p>
-
                   <Button style={styles.pad} variant="secondary" size="sm" href="https://unseenmountain.github.io/train-station/">
                     Live app
            </Button>
                   <Button variant="secondary" size="sm" href="https://github.com/UnseenMountain/train-station">
                     GitHub repo
            </Button>
+                    </Fade>
                 </div>
               </Media.Body>
 
@@ -168,18 +186,20 @@ export default class Gallery extends Component {
               />
               <Media.Body>
                 <div style={styles.title} className="text-white">
-
+                <Fade bottom big cascade>
                   <h3 className="text">Gifi API</h3>
                   <p className="text"> Seach your favorite video game gifs with this API application. </p>
                   <h3>Technologies used.</h3>
                   <p>HTML5 Javascript, Bulma CSS.</p>
-
+                    </Fade>
+                    <Shake>
                   <Button style={styles.pad} variant="secondary" size="sm" href="https://github.com/UnseenMountain/Gify-cool-api">
                     Live app
            </Button>
                   <Button variant="secondary" size="sm" href="https://unseenmountain.github.io/unit-4-game/">
                     GitHub repo
            </Button>
+           </Shake>
                 </div>
               </Media.Body>
 
@@ -196,11 +216,13 @@ export default class Gallery extends Component {
               />
               <Media.Body>
                 <div style={styles.title} className="text-white">
-
+                <Flip cascade>
                   <h3 className="text">Clikey game</h3>
                   <p className="text"> A simple memorie game see if you can remember all the characters. </p>
                   <h3>Technologies used.</h3>
                   <p>React, react bootstrap.</p>
+                    </Flip>
+                    <Spin>
 
                   <Button style={styles.pad} variant="secondary" size="sm" href="https://github.com/UnseenMountain/picture-games">
                     Live app
@@ -208,6 +230,7 @@ export default class Gallery extends Component {
                   <Button variant="secondary" size="sm" href="https://polar-taiga-65488.herokuapp.com/">
                     GitHub repo
            </Button>
+                    </Spin>
                 </div>
               </Media.Body>
 
