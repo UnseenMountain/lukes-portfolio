@@ -44,7 +44,7 @@ export default class ReactReveal extends Component {
                                     width={200}
                                     height={200}
                                     className="align-self-center mr-3"
-                                    src="https://i.ytimg.com/vi/c0NeRZ_unVI/hqdefault.jpg" roundedCircle
+                                    src="https://i.ytimg.com/vi/c0NeRZ_unVI/hqdefault.jpg" 
                                     alt="Generic placeholder"
                                     />
                                     <h2>Hi, I'm Luke Klymshyn and yes my last name has no vowels.</h2>
