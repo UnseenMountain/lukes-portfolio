@@ -12,7 +12,7 @@ export default class ReactReveal extends Component {
   render() {
     const animateList = [1];
     return (
-      
+
       <Fragment>
         {animateList.map(() => (
           <div>
@@ -29,7 +29,7 @@ export default class ReactReveal extends Component {
                       <Row>
                         <Rotate>
 
-                        <div style={styles.title}>
+                          <div style={styles.title}>
 
 
 
@@ -38,29 +38,29 @@ export default class ReactReveal extends Component {
                               <Container>
                                 <Media as="li">
                                   <Media.Body>
-                          <div style={styles.pad} md="auto" className="text-white">
-                          
-                          <img
-                                    width={200}
-                                    height={200}
-                                    className="align-self-center mr-3"
-                                    src="https://i.ytimg.com/vi/c0NeRZ_unVI/hqdefault.jpg" 
-                                    alt="Generic placeholder"
-                                    />
-                                    <h2>Hi, I'm Luke Klymshyn and yes my last name has no vowels.</h2>
-                                    <h2>I'm a UI and UX designer focused on making fun, engaging, and responsive websites for your users.</h2>
+                                    <div style={styles.pad} md="auto" className="text-white">
 
-                                  </div>
+                                      <img
+                                        width={200}
+                                        height={200}
+                                        className="align-self-center mr-3"
+                                        src="https://i.ytimg.com/vi/c0NeRZ_unVI/hqdefault.jpg"
+                                        alt="Generic placeholder"
+                                      />
+                                      <h2>Hi, I'm Luke Klymshyn and yes my last name has no vowels.</h2>
+                                      <h2>I'm a UI and UX designer focused on making fun, engaging, and responsive websites for your users.</h2>
+
+                                    </div>
                                   </Media.Body>
-                                 
+
                                 </Media>
 
                               </Container>
 
                             </Fade>
 
-                        </div>
-                                    </Rotate>
+                          </div>
+                        </Rotate>
                       </Row>
                     </Container>
                   </Card.ImgOverlay>
@@ -74,38 +74,37 @@ export default class ReactReveal extends Component {
 
             <Fade top bottom big cascade>
 
-                <Card>
-                  <Card.Img height="750" src="https://data.whicdn.com/images/289974250/original.gif" alt="Card image" />
-                  <Card.ImgOverlay>
-              <div style={styles.title}>
-                <div style={styles.p}>
+              <Card>
+                <Card.Img height="750" src="https://data.whicdn.com/images/289974250/original.gif" alt="Card image" />
+                <Card.ImgOverlay>
+                  <div style={styles.title}>
+                    <div style={styles.p}>
 
-                    <Jumbotron>
-                      
-                      <Container>
-                      <Zoom bottom cascade duration={1500}>
-          
-                        <h5> Luke Klymshyn. Is a graduate of UCLA and a Fullstack web developer.
-                                      who concentrates on UI and UX design. </h5>
-                        <h5>He has worked with HTML5, CSS, Javascript, Ajax, Json, API,
-                        React bootstrap, Bulma, and Databases, React.
-                                    </h5>
-                        <h5>I am great in a group or alone, I'm also very personable. </h5>
+                      <Jumbotron>
 
-                        <h5>One of my accomplishments was taking second place in the video game design competition at Skills USA with a friend of mine.</h5>
+                       
+                          <Zoom bottom cascade duration={1500}>
 
-                        <h5>My hobbies consist of playing video games, making up stories or new ideas listening to music. </h5>
+                            <h5>Luke Klymshyn is a graduate of UCLA and a Fullstack Web Developer who concentrates on UI and UX design.
 
-                        <h5>If you would like to review some samples of my work please refer to the gallery below.</h5>
+                            He has worked with HTML5, CSS, JavaScript, Ajax, JSON, API, React bootstrap, Bulma, Databases, firebase, and React.
 
-        </Zoom>
+                            He excels in a group or alone and is focused and dedicated to achieving the goals necessary to complete all goals.</h5>
 
-                      </Container>
-                    </Jumbotron>
-                </div>
-              </div>
-                  </Card.ImgOverlay>
-                </Card>
+                           <h5> One of my early achievements was taking second place in the video game design competition at Skills USA with a friend of mine. I have also worked with an international VR company promoting their products at trade shows.
+
+                          My hobbies consist of creative writing, designing video games, and listening to a different collection of music. 
+
+                          If you would like to review examples of my work please refer to the gallery below. </h5>
+
+                          </Zoom>
+
+                        
+                      </Jumbotron>
+                    </div>
+                  </div>
+                </Card.ImgOverlay>
+              </Card>
 
             </Fade>
           </div>
@@ -134,7 +133,7 @@ const styles = {
     width: '100%',
     height: '100%',
     background: '#000',
-    
+
   },
   title: {
     textAlign: 'center',
@@ -143,16 +142,16 @@ const styles = {
     fontFamily: 'Lato, sans-serif',
     fontWeight: 100,
     padding: 10,
-   
-   
+
+
   },
 
   pad: {
-      
+
     padding: 30
-},
+  },
   p: {
-      
+
     padding: 80
-},
+  },
 };
