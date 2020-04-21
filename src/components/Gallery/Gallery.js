@@ -9,6 +9,8 @@ import Flip from 'react-reveal/Flip';
 import RubberBand from 'react-reveal/RubberBand';
 import Shake from 'react-reveal/Shake';
 import Spin from 'react-reveal/Spin';
+
+
 export default class Gallery extends Component {
 
 
