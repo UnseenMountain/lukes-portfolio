@@ -9,7 +9,7 @@ import Flip from 'react-reveal/Flip';
 import RubberBand from 'react-reveal/RubberBand';
 import Shake from 'react-reveal/Shake';
 import Spin from 'react-reveal/Spin';
-
+import "./style.css";
 
 export default class Gallery extends Component {
 
@@ -22,6 +22,7 @@ export default class Gallery extends Component {
       <Fragment>
 
         <div style={styles.block}>
+        <div className="color">
 
           <Fade top>
 
@@ -33,7 +34,7 @@ export default class Gallery extends Component {
                 className="mr-3"
                 src="https://media1.giphy.com/media/l8vhXzMYI1wUU/giphy.gif?cid=ecf05e474a9412e604584d928a94cb97f3884ed3b28150d0&rid=giphy.gif"
                 alt="Generic placeholder"
-              />
+                />
                 <div style={styles.title} className="text-white">
                   <Bounce left cascade>
                     <h3 className="text">Tomagotchi</h3>
@@ -64,7 +65,7 @@ export default class Gallery extends Component {
                 className="mr-3"
                 src="https://media3.giphy.com/media/UtNPaZkdzaT5K/100.webp?cid=ecf05e47b2df1a3e5583e7926971cd3c316869b50ab4156e&rid=100.webp"
                 alt="Generic placeholder"
-              />
+                />
                 <div style={styles.title} className="text-white">
                   <Zoom left cascade>
                     <h3 className="text">Group Project 2</h3>
@@ -96,7 +97,7 @@ export default class Gallery extends Component {
                 className="mr-3"
                 src="https://media2.giphy.com/media/3oriNPdeu2W1aelciY/giphy.gif?cid=ecf05e4748ab29f4e7c8a63208ca058ad214e935bdb70b43&rid=giphy.gif"
                 alt="Generic placeholder"
-              />
+                />
                 <div style={styles.title} className="text-white">
                   <Flip cascade>
                     <h3 className="text">RPG game</h3>
@@ -154,7 +155,7 @@ export default class Gallery extends Component {
                 className="mr-3"
                 src="https://media3.giphy.com/media/NjwTXVzHvZx6w/200.webp?cid=ecf05e479b2f5c3e0793ac33a04ca6dc45802dd7e67ed814&rid=200.webp"
                 alt="Generic placeholder"
-              />
+                />
                 <div style={styles.title} className="text-white">
                   <Fade bottom big cascade>>
                   <h3 className="text">Train station</h3>
@@ -182,7 +183,7 @@ export default class Gallery extends Component {
                 className="mr-3"
                 src="https://media2.giphy.com/media/Z8JSIEhG36CyI/source.gif"
                 alt="Generic placeholder"
-              />
+                />
                 <div style={styles.title} className="text-white">
                   <Fade bottom big cascade>
                     <h3 className="text">Gifi API</h3>
@@ -212,7 +213,7 @@ export default class Gallery extends Component {
                 className="mr-3"
                 src="https://media2.giphy.com/media/gYb3fTm6JN71u/giphy.webp?cid=ecf05e47cbb33d3652ce483b69f7658931605e1be06dbc5d&rid=giphy.webp"
                 alt="Generic placeholder"
-              />
+                />
                 <div style={styles.title} className="text-white">
                   <Flip cascade>
                     <h3 className="text">Clikey game</h3>
@@ -237,6 +238,7 @@ export default class Gallery extends Component {
 
           </Fade>
         </div>
+</div>
 
       </Fragment>
     );
@@ -244,11 +246,11 @@ export default class Gallery extends Component {
 }
 
 const styles = {
-
+  
   block: {
-
+    
     borderBottom: "3px solid rgb(212, 212, 212)",
-
+    
     padding: 10,
     alignItems: 'center',
     justifyContent: 'center',
