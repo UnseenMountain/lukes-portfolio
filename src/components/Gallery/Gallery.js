@@ -205,6 +205,7 @@ export default class Gallery extends Component {
             </Media>
 
             <Media>
+              <Media.Body>
               <img
                 width={300}
                 height={300}
@@ -212,7 +213,6 @@ export default class Gallery extends Component {
                 src="https://media2.giphy.com/media/gYb3fTm6JN71u/giphy.webp?cid=ecf05e47cbb33d3652ce483b69f7658931605e1be06dbc5d&rid=giphy.webp"
                 alt="Generic placeholder"
               />
-              <Media.Body>
                 <div style={styles.title} className="text-white">
                   <Flip cascade>
                     <h3 className="text">Clikey game</h3>

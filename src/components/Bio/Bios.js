@@ -1,11 +1,11 @@
 import React, { Component, Fragment } from 'react';
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
-import Rotate from 'react-reveal/Rotate';
+
 import Media from 'react-bootstrap/Media';
 import { Card, Container, Row, Jumbotron } from "react-bootstrap"
+import "./style.css";
 export default class ReactReveal extends Component {
-
 
 
 
@@ -21,13 +21,13 @@ export default class ReactReveal extends Component {
 
 
                 <Card >
-                  <Card.Img height="750" src="https://media3.giphy.com/media/3ov9jQWd5qhiUSPDri/giphy.gif" alt="Card image" />
-                  <Card.ImgOverlay>
+                          <div className="colors">
+                  
 
 
 
                     <Row>
-                      <Rotate>
+                      
 
                         <div style={styles.title}>
 
@@ -46,7 +46,7 @@ export default class ReactReveal extends Component {
                                       className="align-self-center mr-3"
                                       src="https://i.ytimg.com/vi/c0NeRZ_unVI/hqdefault.jpg"
                                       alt="Generic placeholder"
-                                    />
+                                      />
                                     <h2>Hi, I'm Luke Klymshyn and yes my last name has no vowels.</h2>
                                     <h2>I'm a UI and UX designer focused on making fun, engaging, and responsive websites for your users.</h2>
 
@@ -59,12 +59,13 @@ export default class ReactReveal extends Component {
 
                           </Fade>
 
-                        </div>
-                      </Rotate>
+                                      </div>
+                     
                     </Row>
 
-                  </Card.ImgOverlay>
+           
 
+                        </div>
                 </Card>
 
 
@@ -147,8 +148,8 @@ const styles = {
   },
 
   pad: {
-    margin: 30,
-    padding: 80
+    
+   
   },
 
 };
