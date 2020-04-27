@@ -32,13 +32,13 @@ export default class Gallery extends Component {
                 width={300}
                 height={300}
                 className="mr-3"
-                src="./Admiring_the_view-en.jpg"
+                src="https://media1.giphy.com/media/l8vhXzMYI1wUU/giphy.gif?cid=ecf05e474a9412e604584d928a94cb97f3884ed3b28150d0&rid=giphy.gif"
                 alt="Generic placeholder"
                 />
                 <div style={styles.title} className="text-white">
                   <Bounce left cascade>
-                    <h3 className="text">Tomagotchi</h3>
-                    <p className="text">TAMAGOTCHI is a GAME!
+                    <h3 className="text-white">Tomagotchi</h3>
+                    <p className="text-white">TAMAGOTCHI is a GAME!
 
                   The Tamagotchi (たまごっち) is a handheld digital pet, created in Japan by Akihiro Yokoi of WiZ and Aki Maita of Bandai, the game that became one of the biggest toy fads of the 1990s and early 2000s. This app allows the user to play a narrative based on the old amazing game once again!</p>
                     <h3>Technologies used.</h3>
@@ -68,8 +68,8 @@ export default class Gallery extends Component {
                 />
                 <div style={styles.title} className="text-white">
                   <Zoom left cascade>
-                    <h3 className="text">Group Project 2</h3>
-                    <p className="text">CASTR is a cross between Pinterest and Reddit/Quora.
+                    <h3 className="text-white">Group Project 2</h3>
+                    <p className="text-white">CASTR is a cross between Pinterest and Reddit/Quora.
 
                     CASTR is a cross between Pinterest and Reddit/Quora. This is a space where creators can share a wide range of mediums including audio, art, literature, and videos. It's a space where they can share, save, and start meaningful conversations with other like-minded creators.</p>
 
@@ -100,8 +100,8 @@ export default class Gallery extends Component {
                 />
                 <div style={styles.title} className="text-white">
                   <Flip cascade>
-                    <h3 className="text">RPG game</h3>
-                    <p className="text">This is a turn-based RPG game where you select a character and battle the others you win by defeating all your opponents. (PS: choose Keannu Reaves) </p>
+                    <h3 className="text-white">RPG game</h3>
+                    <p className="text-white">This is a turn-based RPG game where you select a character and battle the others you win by defeating all your opponents. (PS: choose Keannu Reaves) </p>
                     <h3>Technologies used.</h3>
                     <p>HTML 5, CSS, Javascript.</p>
                   </Flip>
@@ -129,8 +129,8 @@ export default class Gallery extends Component {
               />
                 <div style={styles.title} className="text-white">
                   <Bounce left cascade>
-                    <h3 className="text"> On Topic a 4 person group project</h3>
-                    <p className="text">On Topic is a web app that allows users to search for keywords in three different API databases. Returning results of articles and videos (sourced via YouTube) related to that keyword. This was all part of Team No Rest For The Student's first project for UCLA's Fullstack Web Development Coding Bootcamp (September 2019 to March 2020).</p>
+                    <h3 className="text-white"> On Topic a 4 person group project</h3>
+                    <p className="text-white">On Topic is a web app that allows users to search for keywords in three different API databases. Returning results of articles and videos (sourced via YouTube) related to that keyword. This was all part of Team No Rest For The Student's first project for UCLA's Fullstack Web Development Coding Bootcamp (September 2019 to March 2020).</p>
                     <h3>Technologies used.</h3>
                     <p>Firbase, Newsy API Javascript Deployed on Heroku.</p>
                   </Bounce>
@@ -158,8 +158,8 @@ export default class Gallery extends Component {
                 />
                 <div style={styles.title} className="text-white">
                   <Fade bottom big cascade>>
-                  <h3 className="text">Train station</h3>
-                    <p className="text" >This is a search algorithm for a train station ticket machine to help the user find where they want to go.</p>
+                  <h3 className="text-white">Train station</h3>
+                    <p className="text-white" >This is a search algorithm for a train station ticket machine to help the user find where they want to go.</p>
                     <h3>Technologies used.</h3>
                     <p>Firbase, Javascript Deployed on GitHub pages.</p>
                     <Button style={styles.pad} variant="secondary" size="sm" href="https://unseenmountain.github.io/train-station/">
@@ -186,8 +186,8 @@ export default class Gallery extends Component {
                 />
                 <div style={styles.title} className="text-white">
                   <Fade bottom big cascade>
-                    <h3 className="text">Gifi API</h3>
-                    <p className="text"> Seach your favorite video game gifs with this API application. </p>
+                    <h3 className="text-white">Gifi API</h3>
+                    <p className="text-white"> Seach your favorite video game gifs with this API application. </p>
                     <h3>Technologies used.</h3>
                     <p>HTML5 Javascript, Bulma CSS.</p>
                   </Fade>
@@ -216,8 +216,8 @@ export default class Gallery extends Component {
                 />
                 <div style={styles.title} className="text-white">
                   <Flip cascade>
-                    <h3 className="text">Clikey game</h3>
-                    <p className="text"> A simple memory game sees if you can remember all the characters. </p>
+                    <h3 className="text-white">Clikey game</h3>
+                    <p className="text-white"> A simple memory game sees if you can remember all the characters. </p>
                     <h3>Technologies used.</h3>
                     <p>React, react bootstrap.</p>
                   </Flip>
