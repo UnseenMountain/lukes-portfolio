@@ -32,7 +32,7 @@ export default class Gallery extends Component {
                 width={300}
                 height={300}
                 className="mr-3"
-                src="https://media1.giphy.com/media/l8vhXzMYI1wUU/giphy.gif?cid=ecf05e474a9412e604584d928a94cb97f3884ed3b28150d0&rid=giphy.gif"
+                src="./Admiring_the_view-en.jpg"
                 alt="Generic placeholder"
                 />
                 <div style={styles.title} className="text-white">

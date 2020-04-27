@@ -96,7 +96,7 @@ export default class ReactReveal extends Component {
 
                         My hobbies consist of creative writing, designing video games, and listening to a different collection of music.
 
-                          If you would like to review examples of my work please refer to the gallery below. </h5>
+                          If you would like to review examples of my work please refer to the gallery. </h5>
 
                       </Zoom>
 
