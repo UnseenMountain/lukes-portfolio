@@ -157,7 +157,7 @@ export default class Gallery extends Component {
                 alt="Generic placeholder"
                 />
                 <div style={styles.title} className="text-white">
-                  <Fade bottom big cascade>>
+                  <Fade top big cascade>
                   <h3 className="text-white">Train station</h3>
                     <p className="text-white" >This is a search algorithm for a train station ticket machine to help the user find where they want to go.</p>
                     <h3>Technologies used.</h3>
