@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import Fade from 'react-reveal/Fade';
-import { Button } from 'react-bootstrap'
+import { Button, Container, Jumbotron } from 'react-bootstrap'
 import Media from 'react-bootstrap/Media'
 import Bounce from 'react-reveal/Bounce';
 import Zoom from 'react-reveal/Zoom';
@@ -20,9 +20,14 @@ export default class Gallery extends Component {
 
 
       <Fragment>
-
         <div style={styles.block}>
         <div className="color">
+          <Container>
+            <Jumbotron>
+
+                <h3 className="text-black">This is my gallery of applications I have created during my time at UCLA. </h3>
+            </Jumbotron>
+          </Container>
 
           <Fade top>
 
