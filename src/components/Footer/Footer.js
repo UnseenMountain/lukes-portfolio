@@ -21,7 +21,7 @@ function Footer() {
                         <Image height="100" width="100" src="https://pbs.twimg.com/profile_images/1157035760085684224/iuxTnT5g_400x400.jpg" roundedCircle />
                      </Button>
                     
-                    <h4 className="text-white"> contact me at unseenmountain@gmail.com or lklymshyn@gmail.com</h4>
+                    <h4 className="text-white"> Contact me at unseenmountain@gmail.com or lklymshyn@gmail.com</h4>
 
                 </Card.Body>
                 <Card.Footer className="text-muted"></Card.Footer>
