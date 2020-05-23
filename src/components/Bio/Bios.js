@@ -40,13 +40,13 @@ export default class ReactReveal extends Component {
                                 <Media.Body>
                                   <div style={styles.pad} md="auto" className="text-white">
 
-                                    <img
+                                    {/* <img
                                       width={150}
                                       height={150}
                                       className="align-self-center mr-3"
                                       src="https://i.ytimg.com/vi/c0NeRZ_unVI/hqdefault.jpg"
                                       alt="Generic placeholder"
-                                      />
+                                      /> */}
                                     <h2>Hi, I'm Luke Klymshyn and yes my last name has no vowels.</h2>
                                     <h2>I'm a UI and UX designer focused on making fun, engaging, and responsive websites for your users.</h2>
 
